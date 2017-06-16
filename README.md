@@ -1,0 +1,2 @@
+# sample
+First GIT repository
