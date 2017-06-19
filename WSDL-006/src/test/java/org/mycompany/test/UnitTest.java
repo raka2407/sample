@@ -37,6 +37,7 @@ public class UnitTest
         servletTester.stop();
 
         System.out.println("DONE");
+        System.out.println("DONE");
     }
 
 }
