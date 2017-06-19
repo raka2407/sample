@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:CurrencyExchangeResponse xmlns:urn="urn:Financials">
+         <Legal>
+            <!--Optional:-->
+            <Title>gero et</Title>
+            <!--0 to 5 repetitions:-->
+            <Description>sonoras imperio</Description>
+            <!--Optional:-->
+            <Copyright>quae divum incedo</Copyright>
+            <!--Optional:-->
+            <Author>verrantque per auras</Author>
+         </Legal>
+         <Results>
+            <Rate>per auras</Rate>
+            <From>circum claustra</From>
+            <To>nimborum in</To>
+            <Amount>foedere certo</Amount>
+         </Results>
+      </urn:CurrencyExchangeResponse>

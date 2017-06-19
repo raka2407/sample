@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+    <servlet>
+        <servlet-name>WSDL-VirtualServiceServlet</servlet-name>
+        <servlet-class>org.mycompany.servlet.VirtualServiceServlet</servlet-class>
+
+        <init-param>
+            <param-name>webapp-name</param-name>
+            <param-value>WSDL-006</param-value>
+        </init-param>
+
+        <init-param>
+            <param-name>wsdlUrl</param-name>
+            <param-value>file:///C:\Users\AB62031\Ostia Solutions\apache-tomcat-8.0.36\webapps\dnb\FinancialService.wsdl</param-value>
+        </init-param>
+	
+		<init-param>
+			<param-name>groupid</param-name>
+			<param-value>org.mycompany</param-value>
+		</init-param>
+		
+        <init-param>
+            <param-name>virtualServiceImpl</param-name>
+            <param-value>org.mycompany.generated.sv.impl.VirtualServiceImpl</param-value>
+        </init-param>
+
+        <load-on-startup>1</load-on-startup>
+
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>WSDL-VirtualServiceServlet</servlet-name>
+        <url-pattern>/*</url-pattern>
+		<url-pattern>/configurationService</url-pattern>
+		<url-pattern>/statsService</url-pattern>
+		<url-pattern>/WSDL</url-pattern>
+    </servlet-mapping>
+
+</web-app>

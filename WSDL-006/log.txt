@@ -1,0 +1,37 @@
+[INFO] Scanning for projects...
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/wsdlvs-maven-plugin/1.0-SNAPSHOT/maven-metadata.xml
+766/766 B               Downloaded: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/wsdlvs-maven-plugin/1.0-SNAPSHOT/maven-metadata.xml (766 B at 2.0 KB/sec)
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/maven-plugins/0.0.4-SNAPSHOT/maven-metadata.xml
+591/591 B               Downloaded: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/maven-plugins/0.0.4-SNAPSHOT/maven-metadata.xml (591 B at 0.6 KB/sec)
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building WSDL-006 1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- wsdlvs-maven-plugin:1.0-SNAPSHOT:execute (default-cli) @ WSDL-006 ---
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/api/common-utils/0.0.4-SNAPSHOT/maven-metadata.xml
+            Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/api/0.0.4-SNAPSHOT/maven-metadata.xml
+            Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/payloads/1.0-SNAPSHOT/maven-metadata.xml
+            Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/license4j/license4j-runtime-library/maven-metadata.xml
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-release/com/license4j/license4j-runtime-library/maven-metadata.xml
+372/372 B   372/372 B   372/372 B                           Downloaded: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/license4j/license4j-runtime-library/maven-metadata.xml (372 B at 1.5 KB/sec)
+                        Downloaded: http://cloud.ostiasolutions.com:8081/artifactory/plugins-release/com/license4j/license4j-runtime-library/maven-metadata.xml (372 B at 1.5 KB/sec)
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/sv/codegen/wsdlvs-impl/1.0-SNAPSHOT/maven-metadata.xml
+769/769 B                           Downloaded: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/sv/codegen/wsdlvs-impl/1.0-SNAPSHOT/maven-metadata.xml (769 B at 2.8 KB/sec)
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/sv/codegen/1.0-SNAPSHOT/maven-metadata.xml
+584/584 B               Downloaded: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/sv/codegen/1.0-SNAPSHOT/maven-metadata.xml (584 B at 2.2 KB/sec)
+Downloading: http://cloud.ostiasolutions.com:8081/artifactory/plugins-snapshot/com/ostiasolutions/sv/1.0-SNAPSHOT/maven-metadata.xml
+            [INFO] wsdlUrl : file:/C:/Users/AB62031/Ostia Solutions/apache-tomcat-8.0.36/webapps/dnb/FinancialService.wsdl
+[INFO] virtualServiceImpl : org.mycompany.generated.sv.impl.VirtualServiceImpl
+[INFO] Source directory: C:\Users\AB62031\Ostia Solutions\apache-tomcat-8.0.36\webapps\WSDL-006\target\generated-sources added.
+[INFO] Up-to-date check for source resources [[file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/dnb/FinancialService.wsdl, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/pom.xml]] and target resources [[file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CompanyDetailsAttrResponseType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CompanyDetailsAttrType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CompanyDetailsRequestType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CompanyDetailsResponseType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CompanyDetailsType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/ConversionResult.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CurrencyExchangeRequestType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/CurrencyExchangeResponseType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/GetStockQuoteRequestType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/GetStockQuoteResponseType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/LegalType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/ObjectFactory.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/package-info.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/StockInfoType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/financials/TimeType.java, file:/C:/Users/AB62031/Ostia%20Solutions/apache-tomcat-8.0.36/webapps/WSDL-006/target/generated-sources/xjc/META-INF/sun-jaxb.episode]].
+[INFO] Latest timestamp of the source resources is [2017-06-06 11:33:06.752], earliest timestamp of the target resources is [2017-06-06 11:33:16.843].
+[INFO] Sources are up-to-date, XJC will be skipped.
+[INFO] C:\Users\AB62031\Ostia Solutions\apache-tomcat-8.0.36\webapps\WSDL-006\src\main\java\org\mycompany\generated\sv\impl\VirtualServiceImpl.java already exists. Will not overwrite.
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 10.430 s
+[INFO] Finished at: 2017-06-06T11:35:23+02:00
+[INFO] Final Memory: 28M/313M
+[INFO] ------------------------------------------------------------------------

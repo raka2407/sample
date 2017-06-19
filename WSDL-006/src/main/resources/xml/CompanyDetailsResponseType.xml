@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:CompanyDetailsEleResponse xmlns:urn="urn:Financials">
+         <!--1 or more repetitions:-->
+         <CompanyDetails>
+            <Symbol>gero et</Symbol>
+            <Name>sonoras imperio</Name>
+            <Exchange>quae divum incedo</Exchange>
+            <ExchangeType>verrantque per auras</ExchangeType>
+         </CompanyDetails>
+      </urn:CompanyDetailsEleResponse>

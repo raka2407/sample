@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urn:GetStockQuoteResponse xmlns:urn="urn:Financials">
+         <!--Optional:-->
+         <Legal>
+            <!--Optional:-->
+            <Title>gero et</Title>
+            <!--0 to 5 repetitions:-->
+            <Description>sonoras imperio</Description>
+            <!--Optional:-->
+            <Copyright>quae divum incedo</Copyright>
+            <!--Optional:-->
+            <Author>verrantque per auras</Author>
+         </Legal>
+         <!--Optional:-->
+         <Time>
+            <!--Optional:-->
+            <Date>per auras</Date>
+         </Time>
+         <!--Optional:-->
+         <StockInfo>
+            <SymbolName>circum claustra</SymbolName>
+            <CompanyName>nimborum in</CompanyName>
+            <Last>foedere certo</Last>
+            <Change>profundum quippe ferant</Change>
+            <Percentage_Change>et carcere</Percentage_Change>
+            <Volume>iovis rapidum iaculata</Volume>
+         </StockInfo>
+      </urn:GetStockQuoteResponse>
